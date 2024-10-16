@@ -374,6 +374,16 @@
                  "name":"silentZone",
                  "properties":[
                         {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.youtube.com\/embed\/5vG4XtJt5Dg?si=AJ3EX5QicreAGtnI"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }, 
+                        {
                          "name":"silent",
                          "type":"bool",
                          "value":true
@@ -461,6 +471,23 @@
                  "width":32,
                  "x":64,
                  "y":544
+                }, 
+                {
+                 "height":145.17860046615,
+                 "id":20,
+                 "name":"Iframe",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/www.google.de"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":87.10716027969,
+                 "x":259.17068675809,
+                 "y":104.31351292753
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -543,7 +570,7 @@
          "y":0
         }],
  "nextlayerid":63,
- "nextobjectid":20,
+ "nextobjectid":23,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -572,7 +599,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.11.0",
  "tileheight":32,
  "tilesets":[
         {
