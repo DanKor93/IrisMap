@@ -2,6 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
+
 console.log('Script started successfully');
 
 let currentPopup: any = undefined;
@@ -19,6 +20,16 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
+    WA.room.area.onEnter('appTriggerArea').subscribe(() => {
+        console.log('User entered the appTriggerArea');
+
+        // Öffne ein neues Popup oder Fenster mit deiner Anwendung
+        WA.nav.openTab('https://www.wikipedia.org/');
+    });
+
+    // Optional: Schließe das Popup, wenn der Benutzer den Bereich verlässt
+
+    
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');

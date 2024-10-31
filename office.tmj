@@ -596,7 +596,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.ts"
+         "value":"https://raw.githubusercontent.com/DanKor93/IrisMap/e37c436e86f2ce6a0cc5a838d5c31e4035bfcf82/src/main.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.0",
