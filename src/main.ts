@@ -20,7 +20,7 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
-    WA.room.area.onEnter('appTriggerArea').subscribe(() => {
+    WA.room.area.onEnter('Testarea').subscribe(() => {
         console.log('User entered the appTriggerArea');
 
         // Öffne ein neues Popup oder Fenster mit deiner Anwendung
